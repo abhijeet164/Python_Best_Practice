@@ -6,9 +6,12 @@
 
 a = 10
 b = "Computer"
-print(a)          #10
-print(type(a))    # <class 'int'>
-print(b)          # Computer
-print(type(b))    #<class 'str'>
+print(a)  # 10
+print(type(a))  # <class 'int'>
+print(b)  # Computer
+print(type(b))  # <class 'str'>
 
-print(a,b)
+print(a, b)
+
+c, d, e = 12, 13, 14
+print(c, d, e)
