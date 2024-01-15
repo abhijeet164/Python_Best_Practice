@@ -13,5 +13,5 @@ print(type(b))  # <class 'str'>
 
 print(a, b)
 
-c, d, e = 12, 13, 14
-print(c, d, e)
+c, d, e = 12, 13, 14    # Multiple Vaiabler Assignment
+print(c, d, e)          #Print in One Go/Statement  =12 13 14
