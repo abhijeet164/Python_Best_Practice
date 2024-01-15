@@ -1,3 +1,6 @@
+# Python is case sensitve and Dianamically Typed Langauge No Need to Define Data Type Explicitly
+
+
 a = 10
 b = 20.5
 c = 'Abhijeet'
@@ -18,3 +21,11 @@ print(type(f))  #<class 'bool'>
 print(bool(g))  #False
 print(type(g))  #<class 'int'>
 print(bool(i))  #True
+
+""" Text Type    : str
+    Numeric Type : int ,float
+    Sequence Type: list ,tuple
+    Mapping Type : dict
+    Set Type     : set
+    Boolean Type : bool
+"""
