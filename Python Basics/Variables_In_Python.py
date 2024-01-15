@@ -10,3 +10,5 @@ print(a)          #10
 print(type(a))    # <class 'int'>
 print(b)          # Computer
 print(type(b))    #<class 'str'>
+
+print(a,b)
