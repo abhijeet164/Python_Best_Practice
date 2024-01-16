@@ -13,3 +13,8 @@ print(False + False)          # 0
 
 # True = 1 And False = 0
 
+# Operands with diffrent data types gives error
+
+print(10 + 'Welcome') #unsupported operand type
+print(10.5 + 'Welcome') #unsupported operand type
+
