@@ -14,7 +14,7 @@
 #     statement1
 #     statement2
 
-# Syntax for  elif
+# Syntax for  elif :When we need to Verify Multiple conditions
 # if condition1:
 #        statement1
 #        statement2
