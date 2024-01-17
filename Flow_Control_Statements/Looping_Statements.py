@@ -32,7 +32,7 @@ print('Executed Successfully')
 for i in range(11):
     print(i)
 
-# Ex 1
+# Ex 2
 for i in range(1,10,2):
     print(i) # prints odd no 1 to 10
 
