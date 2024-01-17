@@ -1,4 +1,4 @@
-# Python is case sensitve and Dianamically Typed Langauge No Need to Define Data Type Explicitly
+# Python is case sensitive and Dynamically Typed Language No Need to Define Data Type Explicitly
 
 
 a = 10
