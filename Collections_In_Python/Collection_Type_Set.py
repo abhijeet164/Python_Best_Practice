@@ -76,7 +76,7 @@ print(mySet)  # NameError: name 'mySet' is not defined Becoz Already Deleted
 # how To join two Set  1) Union 2)update
 set1 = {"A", "B", "C"}
 set2 = {1, 2, 3, 4}
-set3 = set1.union(set2)
+set3 = set1.union(set2)  # We Cannot use Concatenation
 print(set3)  # {1, 2, 'A', 3, 'C', 4, 'B'} Order will Not Be Maintained
 
 # By update() function
