@@ -7,6 +7,7 @@
 # Can apply Mathematical Operation like Union ,Intersection,difference,etc on set
 
 # How To Create A Set :
+
 # 1) Empty Set
 mySet = {}
 
@@ -51,8 +52,8 @@ print(len(mySet))  # 5
 mySet = {"Apple", "Banana", "Grapes", "Kiwi", "Orange"}
 mySet.remove("Apple")
 print(mySet)  # {'Kiwi', 'Orange', 'Banana', 'Grapes'}
-mySet.remove(
-    "xzr")  # KeyError: 'xzr' Whenever trying to remove an ElementWhich is Not Present in the Ser will give An error
+mySet.remove("xzr")  # KeyError: 'xzr' Whenever trying to remove an Element Which is Not Present in the Ser will
+# give An error
 
 # 2) discard() method
 mySet = {"Apple", "Banana", "Grapes", "Kiwi", "Orange"}
