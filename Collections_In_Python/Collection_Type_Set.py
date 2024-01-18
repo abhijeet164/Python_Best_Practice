@@ -59,8 +59,8 @@ mySet.remove("xzr")  # KeyError: 'xzr' Whenever trying to remove an Element Whic
 mySet = {"Apple", "Banana", "Grapes", "Kiwi", "Orange"}
 mySet.discard("Kiwi")
 print(mySet)  # {'Apple', 'Orange', 'Banana', 'Grapes'}
-mySet.discard(
-    "XYZ")  # in discard it will not give you and Error if we are giving an elememnt which is not present in  set ..
+mySet.discard("XYZ")  # in discard it will not give you and Error if we are giving an element which is not present
+# in  set ..
 # This is the only difference in remove() and discard
 
 # How to Clear all items in Set
