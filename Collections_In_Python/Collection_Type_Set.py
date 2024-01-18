@@ -52,7 +52,7 @@ print(len(mySet))  # 5
 mySet = {"Apple", "Banana", "Grapes", "Kiwi", "Orange"}
 mySet.remove("Apple")
 print(mySet)  # {'Kiwi', 'Orange', 'Banana', 'Grapes'}
-mySet.remove("xzr")  # KeyError: 'xzr' Whenever trying to remove an Element Which is Not Present in the Ser will
+mySet.remove("xzr")  # KeyError: 'xzr' Whenever trying to remove an Element Which is Not Present in the Set will
 # give An error
 
 # 2) discard() method
