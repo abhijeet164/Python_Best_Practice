@@ -13,8 +13,8 @@
 # #How to create a tuple
 mytuple=("Apple","Banana","Orange")
 
-# #How To create Empty Tuple
-# # mytuple=()
+# How To create Empty Tuple
+mytuple=()
 
 #How to Access Tuple Element(By Index Number)
 mytuple=("Apple","Banana","Orange")
