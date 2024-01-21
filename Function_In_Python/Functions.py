@@ -8,28 +8,42 @@
 # Function take argument and  also returns Value
 
 # Ex 1
-# def myFun():  # Function Declaration  Use def Keyword for defining a function
-#     print("Hello Abhi")
-# myFun() # Function Calling
+def myFun():  # Function Declaration  Use def Keyword for defining a function
+    print("Hello Abhi")
 
-# Ex 2 A Function can Take Parameters (TAking Single Parameter)
 
-# def myFun(name):
-#     print("Hello",name)
-# myFun("Abhi") #Hello Abhi
+myFun()  # Function Calling
+
+
+# Ex 2 A Function can Take Parameters (Taking Single Parameter)
+
+def myFun(name):
+    print("Hello", name)
+
+
+myFun("Abhi")  # Hello Abhi
+
 
 # Ex 3 A Function Can Take More Than one Parameter
 
-# def cal(a,b):
-#     return (a+b)
-# sum=cal(10,20)
-# print(sum) #30
+def cal(a, b):
+    return (a + b)
+
+
+sum = cal(10, 20)
+print(sum)  # 30
+
 
 # Ex 4
-# def fun():
-#     print()
-# print(fun())
+def fun():
+    print()
 
-# def fun():
-#     i=10
-# fun()
+
+print(fun())
+
+
+def fun():
+    i = 10
+
+
+fun()
