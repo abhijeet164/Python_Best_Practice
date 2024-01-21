@@ -1,23 +1,32 @@
+# Dictionary : If we want to present a group of object as Key And Pair then we should go
+# for Dictionary
+# Duplicates keys are not allowed But Values Can Be duplicate
+# Heterogeneous Objects are allowed for both Key and Value
+# Insertion Order is not Preserved
+# Dictionaries are Mutable and Dynamic
+# Indexing and slicing are not allowed
+
+
 # How To create a Dictionary  mydict={Key:Value}
 
 mydict = {101: "Abhi", 102: "Vishu", 103: "Shruti", 104: "Amar"}
 print(mydict)  # 101: 'Abhi', 102: 'Vishu', 103: 'Shruti', 104: 'Amar'} And also not maintain the order internally
 print(type(mydict))  # <class 'dict'>
 
-# How to Acess the Elements from Dictionary
+# How to Access the Elements from Dictionary
 # Call By key
 mydict = {
     "Brand": "maruti",
     "Model": "i10",
     "year": 2021
 }
-print(mydict["Brand"])  # maruti Key will Return Value
+print(mydict["Brand"])  # Key will Return Value = maruti
+
 # By get() Method
 x = mydict.get("Model")
 print(x)  # i10
 
 # How to change Values (**Not Key coz they are unique) in Dictionary
-
 mydict = {
 
     "Brand": "maruti",
@@ -50,6 +59,7 @@ for i in mydict.values():
 
 for i in mydict.keys():
     print(i)
+
 # Approach = 4) prints both key and value
 for x, y in mydict.items():
     print(x, y)
@@ -89,11 +99,14 @@ mydict = {
     "Model": "i10",
     "Year": 2021
 }
-# mydict.pop("Year")
+
+mydict.pop("Year")
 print(mydict)  # {'Brand': 'maruti', 'Model': 'i10'}
+
 del mydict["Model"]
 print(mydict)  # {'Brand': 'maruti', 'Year': 2021}
-# del mydict  # Deletes  dict
+
+del mydict  # Deletes  dict
 mydict.clear  # Clears only element/item And Variable is Present
 
 # Coping one dict into another dict without copy() Function
