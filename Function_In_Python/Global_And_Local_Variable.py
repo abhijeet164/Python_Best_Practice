@@ -1,7 +1,7 @@
-# Golabal variable : Variable out Side the function
+# Global variable : Variable out Side the function
 # Local Variable : Variable  are inside the function or method
 
-global_Var = 20  # Golabal variable
+global_Var = 20  # Global variable
 
 
 def func():
